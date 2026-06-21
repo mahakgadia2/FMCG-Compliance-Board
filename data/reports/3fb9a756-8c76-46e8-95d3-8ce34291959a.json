@@ -1,0 +1,75 @@
+{
+  "report_id": "3fb9a756-8c76-46e8-95d3-8ce34291959a",
+  "product_name": "Tulsi Turmeric Wellness Shot",
+  "overall_status": "NEEDS_REVIEW",
+  "applicable_regulators": [
+    "fssai",
+    "ayush"
+  ],
+  "verdicts": [
+    {
+      "regulator": "fssai",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: GEMINI_API_KEY not configured.",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "27b24505-02df-43dd-b5a3-c1fdd20bf03d",
+        "8e08aeac-f1ba-4ba5-a978-28ce5e31625e",
+        "c6c5eae9-f7eb-4a12-8d52-34ed8e0e9a30",
+        "d62071f0-bd5f-4002-92ca-387ef8449791",
+        "6f423259-4c5c-4ade-a788-e39c3c9d7369"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "FSSAI Expert Agent"
+    },
+    {
+      "regulator": "ayush",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: GEMINI_API_KEY not configured.",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "9cea9452-f4b3-4c45-8ade-3de3a93bd393",
+        "a57b0ca0-0ddd-4b31-b207-3bf672867f59",
+        "ccc2c863-295c-4e7a-9b83-3dd940007721"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "AYUSH Expert Agent"
+    }
+  ],
+  "conflicts": [],
+  "action_items": [
+    "[FSSAI / MEDIUM] Automated review could not complete: GEMINI_API_KEY not configured.",
+    "[AYUSH / MEDIUM] Automated review could not complete: GEMINI_API_KEY not configured."
+  ],
+  "summary": "Tulsi Turmeric Wellness Shot was reviewed against 2 regulator(s) and received an overall status of NEEDS_REVIEW, with 2 issue(s) and 0 cross-regulator conflict(s) identified. (Generated via rule-based fallback; Gemini was unavailable.)",
+  "generated_at": "2026-06-21T14:57:20.555428",
+  "pipeline_log": [
+    "[14:57:20] Orchestrator: Classifying applicable regulators...",
+    "[14:57:20] Orchestrator: LLM classification failed (GEMINI_API_KEY not configured.); using rule-based fallback.",
+    "[14:57:20] Orchestrator: Rule-based classification: ['fssai', 'ayush']",
+    "[14:57:20] Orchestrator: Final applicable regulators: ['fssai', 'ayush']",
+    "[14:57:20] FSSAI Expert Agent: Starting review for FSSAI...",
+    "[14:57:20] AYUSH Expert Agent: Starting review for AYUSH...",
+    "[14:57:20] FSSAI Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[14:57:20] FSSAI Expert Agent: Gemini unavailable (GEMINI_API_KEY not configured.); returning NEEDS_REVIEW fallback verdict.",
+    "[14:57:20] AYUSH Expert Agent: Retrieved 3 regulation chunk(s) from ChromaDB.",
+    "[14:57:20] AYUSH Expert Agent: Gemini unavailable (GEMINI_API_KEY not configured.); returning NEEDS_REVIEW fallback verdict.",
+    "[14:57:20] Conflict Detector: Scanning verdicts for cross-regulator conflicts...",
+    "[14:57:20] Conflict Detector: No conflicts detected.",
+    "[14:57:20] Report Synthesizer: Synthesizing final report..."
+  ]
+}

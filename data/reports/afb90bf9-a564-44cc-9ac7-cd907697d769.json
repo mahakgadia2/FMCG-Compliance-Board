@@ -1,0 +1,77 @@
+{
+  "report_id": "afb90bf9-a564-44cc-9ac7-cd907697d769",
+  "product_name": "Ashwagandha Protein Bar",
+  "overall_status": "NEEDS_REVIEW",
+  "applicable_regulators": [
+    "fssai",
+    "ayush"
+  ],
+  "verdicts": [
+    {
+      "regulator": "fssai",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: GEMINI_API_KEY not configured.",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "c6c5eae9-f7eb-4a12-8d52-34ed8e0e9a30",
+        "e2a7377b-ebfe-4eb0-b908-0385564a7bf2",
+        "8e08aeac-f1ba-4ba5-a978-28ce5e31625e",
+        "44a29f68-b014-40d8-9822-24b801c253b9",
+        "27b24505-02df-43dd-b5a3-c1fdd20bf03d"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "FSSAI Expert Agent"
+    },
+    {
+      "regulator": "ayush",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: GEMINI_API_KEY not configured.",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "ccc2c863-295c-4e7a-9b83-3dd940007721",
+        "16f8a4c8-419a-49f1-95a9-f1c33b0f156a",
+        "a57b0ca0-0ddd-4b31-b207-3bf672867f59",
+        "1ce3da69-5487-4322-bdb0-977235c4841d",
+        "e8eb42cc-4be4-4b02-a1e7-efbf71b694bc"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "AYUSH Expert Agent"
+    }
+  ],
+  "conflicts": [],
+  "action_items": [
+    "[FSSAI / MEDIUM] Automated review could not complete: GEMINI_API_KEY not configured.",
+    "[AYUSH / MEDIUM] Automated review could not complete: GEMINI_API_KEY not configured."
+  ],
+  "summary": "Ashwagandha Protein Bar was reviewed against 2 regulator(s) and received an overall status of NEEDS_REVIEW, with 2 issue(s) and 0 cross-regulator conflict(s) identified. (Generated via rule-based fallback; Gemini was unavailable.)",
+  "generated_at": "2026-06-21T15:44:33.565935",
+  "pipeline_log": [
+    "[15:44:33] Orchestrator: Classifying applicable regulators...",
+    "[15:44:33] Orchestrator: LLM classification failed (GEMINI_API_KEY not configured.); using rule-based fallback.",
+    "[15:44:33] Orchestrator: Rule-based classification: ['fssai', 'ayush']",
+    "[15:44:33] Orchestrator: Final applicable regulators: ['fssai', 'ayush']",
+    "[15:44:33] FSSAI Expert Agent: Starting review for FSSAI...",
+    "[15:44:33] AYUSH Expert Agent: Starting review for AYUSH...",
+    "[15:44:33] FSSAI Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[15:44:33] FSSAI Expert Agent: Gemini unavailable (GEMINI_API_KEY not configured.); returning NEEDS_REVIEW fallback verdict.",
+    "[15:44:33] AYUSH Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[15:44:33] AYUSH Expert Agent: Gemini unavailable (GEMINI_API_KEY not configured.); returning NEEDS_REVIEW fallback verdict.",
+    "[15:44:33] Conflict Detector: Scanning verdicts for cross-regulator conflicts...",
+    "[15:44:33] Conflict Detector: No conflicts detected.",
+    "[15:44:33] Report Synthesizer: Synthesizing final report..."
+  ]
+}

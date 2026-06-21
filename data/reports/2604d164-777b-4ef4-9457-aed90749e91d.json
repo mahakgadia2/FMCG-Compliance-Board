@@ -1,0 +1,143 @@
+{
+  "report_id": "2604d164-777b-4ef4-9457-aed90749e91d",
+  "product_name": "Health Performance Protein Bar",
+  "overall_status": "NON_COMPLIANT",
+  "applicable_regulators": [
+    "fssai",
+    "ayush"
+  ],
+  "verdicts": [
+    {
+      "regulator": "ayush",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "ingredient",
+          "description": "Shilajit Extract is not listed on the AYUSH-recognized permissible ingredient list for wellness/dietary products. Its inclusion requires a NEEDS_REVIEW classification and additional toxicological data before approval.",
+          "severity": "HIGH",
+          "regulation_reference": "Herbal Guidelines \u2014 chunk_0, Section 1.3; Herbal Guidelines \u2014 chunk_0, Section 1.4"
+        },
+        {
+          "attribute": "ingredient",
+          "description": "Ginseng Extract is not listed on the AYUSH-recognized permissible ingredient list for wellness/dietary products. Its inclusion requires a NEEDS_REVIEW classification and additional toxicological data before approval.",
+          "severity": "HIGH",
+          "regulation_reference": "Herbal Guidelines \u2014 chunk_0, Section 1.3; Herbal Guidelines \u2014 chunk_0, Section 1.4"
+        },
+        {
+          "attribute": "claim",
+          "description": "The claim \"Boosts testosterone naturally\" implies a specific physiological effect akin to disease-treatment or a drug-like action, which is prohibited for wellness products without a separate AYUSH drug license.",
+          "severity": "HIGH",
+          "regulation_reference": "Claim Restrictions \u2014 chunk_0, Section 3.1"
+        },
+        {
+          "attribute": "claim",
+          "description": "The claim \"Clinically proven performance enhancement\" implies a specific clinically demonstrated effect, which goes beyond general wellness language and is restricted for herbal wellness products.",
+          "severity": "HIGH",
+          "regulation_reference": "Claim Restrictions \u2014 chunk_0, Section 3.2"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product makes several wellness/traditional-use claims ('Enhances stamina and endurance', 'Reduces fatigue and stress', 'Supports muscle growth') but does not indicate the presence of the mandatory disclaimer.",
+          "severity": "MEDIUM",
+          "regulation_reference": "Claim Restrictions \u2014 chunk_0, Section 3.4"
+        }
+      ],
+      "citations": [
+        "a57b0ca0-0ddd-4b31-b207-3bf672867f59",
+        "1ce3da69-5487-4322-bdb0-977235c4841d",
+        "9cea9452-f4b3-4c45-8ade-3de3a93bd393",
+        "e8eb42cc-4be4-4b02-a1e7-efbf71b694bc",
+        "ccc2c863-295c-4e7a-9b83-3dd940007721"
+      ],
+      "reasoning": "The product includes herbal ingredients (Shilajit and Ginseng) not found on the AYUSH permissible list, which mandates a 'NEEDS_REVIEW' classification for toxicological data. Additionally, claims like 'Boosts testosterone naturally' and 'Clinically proven performance enhancement' cross into restricted medicinal/clinical language for wellness products. The absence of the mandatory disclaimer for traditional-use claims further contributes to non-compliance.",
+      "confidence": 1.0,
+      "agent_name": "AYUSH Expert Agent"
+    },
+    {
+      "regulator": "fssai",
+      "status": "NON_COMPLIANT",
+      "issues": [
+        {
+          "attribute": "claim",
+          "description": "The claim 'Boosts testosterone naturally' attributes a property of influencing human physiological functions that implies a medicinal or therapeutic effect, which is prohibited for food products as per regulations.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI (Advertising and Claims) Regulations, 2018, Section 3.1"
+        },
+        {
+          "attribute": "claim",
+          "description": "The claim 'Reduces fatigue and stress' implies a therapeutic or disease risk reduction property, which is either prohibited for food products or requires prior specific FSSAI approval under a separate notified procedure.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI (Advertising and Claims) Regulations, 2018, Section 3.1, Section 3.3"
+        },
+        {
+          "attribute": "claim",
+          "description": "The claim 'Clinically proven performance enhancement' is a strong claim requiring robust and generally accepted scientific evidence approved by FSSAI; the phrase 'clinically proven' specifically demands stringent substantiation.",
+          "severity": "MEDIUM",
+          "regulation_reference": "FSSAI (Advertising and Claims) Regulations, 2018, Section 3.1"
+        }
+      ],
+      "citations": [
+        "8e08aeac-f1ba-4ba5-a978-28ce5e31625e",
+        "44a29f68-b014-40d8-9822-24b801c253b9",
+        "d62071f0-bd5f-4002-92ca-387ef8449791",
+        "6fd338c0-a3cf-45b2-9d94-d77454bdfcd8",
+        "836a7668-3611-4319-b0a6-a6462ab56e7d"
+      ],
+      "reasoning": "Multiple health claims made on the product are non-compliant. Claims such as 'Boosts testosterone naturally' and 'Reduces fatigue and stress' imply medicinal or therapeutic effects, or disease risk reduction, which are explicitly prohibited or require specific FSSAI approval for food products. The claim 'Clinically proven performance enhancement' requires rigorous, FSSAI-approved scientific substantiation to be permissible.",
+      "confidence": 0.95,
+      "agent_name": "FSSAI Expert Agent"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "conflict_001",
+      "attribute": "claim",
+      "regulator_a": "ayush",
+      "position_a": "The claim \"Clinically proven performance enhancement\" implies a specific clinically demonstrated effect, which goes beyond general wellness language and is restricted for herbal wellness products.",
+      "regulator_b": "fssai",
+      "position_b": "The claim 'Clinically proven performance enhancement' is a strong claim requiring robust and generally accepted scientific evidence approved by FSSAI; the phrase 'clinically proven' specifically demands stringent substantiation.",
+      "severity": "HIGH",
+      "description": "Ayush indicates that the claim \"Clinically proven performance enhancement\" is restricted for herbal wellness products, implying it's generally unsuitable or disallowed for this product category. FSSAI, while demanding robust and stringent scientific evidence for such a strong claim, does not explicitly restrict it based on the product category, but rather sets the criteria for its substantiation. This creates a conflict as one body suggests the claim is inherently problematic for the product type, while the other provides a pathway for its approval, potentially leading to conflicting regulatory outcomes.",
+      "suggested_resolution": "The manufacturer must seek clarification from Ayush regarding the precise scope of the restriction for 'Clinically proven performance enhancement' claims on herbal wellness products. If Ayush's restriction implies an outright prohibition for this category, the claim must be removed or rephrased to comply with Ayush guidelines. If there's a narrow allowance, the manufacturer must ensure the claim not only meets FSSAI's stringent substantiation requirements but also adheres to any specific conditions or limitations imposed by Ayush for herbal products."
+    },
+    {
+      "conflict_id": "conflict_002",
+      "attribute": "claim",
+      "regulator_a": "fssai",
+      "position_a": "The claim 'Boosts testosterone naturally' attributes a property of influencing human physiological functions that implies a medicinal or therapeutic effect, which is prohibited for food products as per regulations.",
+      "regulator_b": "fssai",
+      "position_b": "The claim 'Clinically proven performance enhancement' is a strong claim requiring robust and generally accepted scientific evidence approved by FSSAI; the phrase 'clinically proven' specifically demands stringent substantiation.",
+      "severity": "HIGH",
+      "description": "The first position explicitly prohibits claims that imply medicinal or therapeutic effects by influencing human physiological functions (like 'Boosts testosterone naturally') for food products. The second position, however, discusses the stringent scientific substantiation required for 'Clinically proven performance enhancement' claims. This creates a conflict because 'performance enhancement' claims, especially when qualified with 'clinically proven,' are highly likely to be interpreted as claims that influence physiological functions and imply a medicinal or therapeutic effect. If so, such claims would be outright prohibited by the first position, making the discussion of their substantiation in the second position contradictory.",
+      "suggested_resolution": "The manufacturer should seek immediate clarification from FSSAI on whether 'performance enhancement' claims for food products, particularly those using 'clinically proven,' are considered to imply a medicinal or therapeutic effect and are thus entirely prohibited. If prohibited, no efforts should be made to substantiate such claims. If, under very specific circumstances, they are conditionally permissible (e.g., for specific categories like nutraceuticals, not general food), then the exact scope, permissible wording, and stringent substantiation requirements must be clearly defined by FSSAI to reconcile these seemingly conflicting directives."
+    }
+  ],
+  "action_items": [
+    "[AYUSH / HIGH] Shilajit Extract is not listed on the AYUSH-recognized permissible ingredient list for wellness/dietary products. Its inclusion requires a NEEDS_REVIEW classification and additional toxicological data before approval.",
+    "[AYUSH / HIGH] Ginseng Extract is not listed on the AYUSH-recognized permissible ingredient list for wellness/dietary products. Its inclusion requires a NEEDS_REVIEW classification and additional toxicological data before approval.",
+    "[AYUSH / HIGH] The claim \"Boosts testosterone naturally\" implies a specific physiological effect akin to disease-treatment or a drug-like action, which is prohibited for wellness products without a separate AYUSH drug license.",
+    "[AYUSH / HIGH] The claim \"Clinically proven performance enhancement\" implies a specific clinically demonstrated effect, which goes beyond general wellness language and is restricted for herbal wellness products.",
+    "[AYUSH / MEDIUM] The product makes several wellness/traditional-use claims ('Enhances stamina and endurance', 'Reduces fatigue and stress', 'Supports muscle growth') but does not indicate the presence of the mandatory disclaimer.",
+    "[FSSAI / HIGH] The claim 'Boosts testosterone naturally' attributes a property of influencing human physiological functions that implies a medicinal or therapeutic effect, which is prohibited for food products as per regulations.",
+    "[FSSAI / HIGH] The claim 'Reduces fatigue and stress' implies a therapeutic or disease risk reduction property, which is either prohibited for food products or requires prior specific FSSAI approval under a separate notified procedure.",
+    "[FSSAI / MEDIUM] The claim 'Clinically proven performance enhancement' is a strong claim requiring robust and generally accepted scientific evidence approved by FSSAI; the phrase 'clinically proven' specifically demands stringent substantiation.",
+    "[CONFLICT / HIGH] Ayush indicates that the claim \"Clinically proven performance enhancement\" is restricted for herbal wellness products, implying it's generally unsuitable or disallowed for this product category. FSSAI, while demanding robust and stringent scientific evidence for such a strong claim, does not explicitly restrict it based on the product category, but rather sets the criteria for its substantiation. This creates a conflict as one body suggests the claim is inherently problematic for the product type, while the other provides a pathway for its approval, potentially leading to conflicting regulatory outcomes. \u2014 The manufacturer must seek clarification from Ayush regarding the precise scope of the restriction for 'Clinically proven performance enhancement' claims on herbal wellness products. If Ayush's restriction implies an outright prohibition for this category, the claim must be removed or rephrased to comply with Ayush guidelines. If there's a narrow allowance, the manufacturer must ensure the claim not only meets FSSAI's stringent substantiation requirements but also adheres to any specific conditions or limitations imposed by Ayush for herbal products.",
+    "[CONFLICT / HIGH] The first position explicitly prohibits claims that imply medicinal or therapeutic effects by influencing human physiological functions (like 'Boosts testosterone naturally') for food products. The second position, however, discusses the stringent scientific substantiation required for 'Clinically proven performance enhancement' claims. This creates a conflict because 'performance enhancement' claims, especially when qualified with 'clinically proven,' are highly likely to be interpreted as claims that influence physiological functions and imply a medicinal or therapeutic effect. If so, such claims would be outright prohibited by the first position, making the discussion of their substantiation in the second position contradictory. \u2014 The manufacturer should seek immediate clarification from FSSAI on whether 'performance enhancement' claims for food products, particularly those using 'clinically proven,' are considered to imply a medicinal or therapeutic effect and are thus entirely prohibited. If prohibited, no efforts should be made to substantiate such claims. If, under very specific circumstances, they are conditionally permissible (e.g., for specific categories like nutraceuticals, not general food), then the exact scope, permissible wording, and stringent substantiation requirements must be clearly defined by FSSAI to reconcile these seemingly conflicting directives."
+  ],
+  "summary": "The Health Performance Protein Bar is NON_COMPLIANT due to several high-severity issues, including the use of unlisted herbal ingredients (Shilajit, Ginseng) requiring toxicological data, and claims such as \"Boosts testosterone naturally\" and \"Clinically proven performance enhancement.\" Both AYUSH and FSSAI prohibit these claims as they imply medicinal or therapeutic effects, and further clarification is needed regarding conflicting regulatory interpretations on performance enhancement statements. Immediate action is required to address ingredient permissibility and prohibited claims.",
+  "generated_at": "2026-06-21T17:41:49.755982",
+  "pipeline_log": [
+    "[17:39:33] Orchestrator: Classifying applicable regulators...",
+    "[17:39:38] Orchestrator: Gemini classification: ['fssai', 'ayush']",
+    "[17:39:38] Orchestrator: Final applicable regulators: ['fssai', 'ayush']",
+    "[17:39:38] FSSAI Expert Agent: Starting review for FSSAI...",
+    "[17:39:38] AYUSH Expert Agent: Starting review for AYUSH...",
+    "[17:39:39] FSSAI Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[17:39:39] AYUSH Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[17:39:54] AYUSH Expert Agent: Verdict: NEEDS_REVIEW (confidence=1.00)",
+    "[17:39:59] FSSAI Expert Agent: Verdict: NON_COMPLIANT (confidence=0.95)",
+    "[17:39:59] Conflict Detector: Scanning verdicts for cross-regulator conflicts...",
+    "[17:41:43] Conflict Detector: Detected 2 conflict(s).",
+    "[17:41:43] Report Synthesizer: Synthesizing final report..."
+  ]
+}

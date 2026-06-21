@@ -1,0 +1,41 @@
+[
+  {
+    "product_name": "Ashwagandha Protein Bar",
+    "category": "functional_food",
+    "ingredients": ["whey protein isolate", "ashwagandha root extract (800mg)", "dates", "cocoa", "sea salt"],
+    "claims": ["boosts immunity", "0g trans fat", "supports stress relief"],
+    "target_demographic": "adults",
+    "net_weight_grams": 50.0,
+    "is_imported": false,
+    "packaging_material": "foil wrapper",
+    "country_of_origin": "India",
+    "has_herbal_ingredients": true,
+    "has_health_claims": true
+  },
+  {
+    "product_name": "Tulsi Turmeric Wellness Shot",
+    "category": "herbal_supplement",
+    "ingredients": ["tulsi leaf extract (400mg)", "turmeric extract (300mg)", "honey", "lemon juice"],
+    "claims": ["traditionally used to support the body's natural defenses", "supports relaxation"],
+    "target_demographic": "adults",
+    "net_weight_grams": 60.0,
+    "is_imported": false,
+    "packaging_material": "glass bottle",
+    "country_of_origin": "India",
+    "has_herbal_ingredients": true,
+    "has_health_claims": true
+  },
+  {
+    "product_name": "Kids' Ashwagandha Gummies",
+    "category": "herbal_supplement",
+    "ingredients": ["ashwagandha root extract (500mg)", "pectin", "fruit juice concentrate"],
+    "claims": ["cures anxiety", "boosts immunity"],
+    "target_demographic": "children",
+    "net_weight_grams": 90.0,
+    "is_imported": false,
+    "packaging_material": "plastic jar",
+    "country_of_origin": "India",
+    "has_herbal_ingredients": true,
+    "has_health_claims": true
+  }
+]

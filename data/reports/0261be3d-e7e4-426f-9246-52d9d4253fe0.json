@@ -1,0 +1,77 @@
+{
+  "report_id": "0261be3d-e7e4-426f-9246-52d9d4253fe0",
+  "product_name": "Tulsi Turmeric Wellness Shot",
+  "overall_status": "NEEDS_REVIEW",
+  "applicable_regulators": [
+    "fssai",
+    "ayush"
+  ],
+  "verdicts": [
+    {
+      "regulator": "ayush",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.952581108s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "9cea9452-f4b3-4c45-8ade-3de3a93bd393",
+        "e8eb42cc-4be4-4b02-a1e7-efbf71b694bc",
+        "a57b0ca0-0ddd-4b31-b207-3bf672867f59",
+        "1ce3da69-5487-4322-bdb0-977235c4841d",
+        "ccc2c863-295c-4e7a-9b83-3dd940007721"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "AYUSH Expert Agent"
+    },
+    {
+      "regulator": "fssai",
+      "status": "NEEDS_REVIEW",
+      "issues": [
+        {
+          "attribute": "system",
+          "description": "Automated review could not complete: Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.657454833s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}",
+          "severity": "MEDIUM",
+          "regulation_reference": ""
+        }
+      ],
+      "citations": [
+        "27b24505-02df-43dd-b5a3-c1fdd20bf03d",
+        "39692b37-80e0-42e0-913f-11446fc94ffd",
+        "8e08aeac-f1ba-4ba5-a978-28ce5e31625e",
+        "44a29f68-b014-40d8-9822-24b801c253b9",
+        "4d3ec5a1-6a5a-4982-92e2-775535dabf89"
+      ],
+      "reasoning": "Fallback verdict generated because the LLM call failed.",
+      "confidence": 0.0,
+      "agent_name": "FSSAI Expert Agent"
+    }
+  ],
+  "conflicts": [],
+  "action_items": [
+    "[AYUSH / MEDIUM] Automated review could not complete: Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.952581108s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}",
+    "[FSSAI / MEDIUM] Automated review could not complete: Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.657454833s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}"
+  ],
+  "summary": "Tulsi Turmeric Wellness Shot was reviewed against 2 regulator(s) and received an overall status of NEEDS_REVIEW, with 2 issue(s) and 0 cross-regulator conflict(s) identified. (Generated via rule-based fallback; Gemini was unavailable.)",
+  "generated_at": "2026-06-21T16:58:15.549423",
+  "pipeline_log": [
+    "[16:58:10] Orchestrator: Classifying applicable regulators...",
+    "[16:58:12] Orchestrator: LLM classification failed (Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 47.902218952s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}); using rule-based fallback.",
+    "[16:58:12] Orchestrator: Rule-based classification: ['fssai', 'ayush']",
+    "[16:58:12] Orchestrator: Final applicable regulators: ['fssai', 'ayush']",
+    "[16:58:12] FSSAI Expert Agent: Starting review for FSSAI...",
+    "[16:58:12] AYUSH Expert Agent: Starting review for AYUSH...",
+    "[16:58:12] AYUSH Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[16:58:12] FSSAI Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[16:58:13] AYUSH Expert Agent: Gemini unavailable (Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.952581108s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}); returning NEEDS_REVIEW fallback verdict.",
+    "[16:58:13] FSSAI Expert Agent: Gemini unavailable (Gemini call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 46.657454833s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}); returning NEEDS_REVIEW fallback verdict.",
+    "[16:58:13] Conflict Detector: Scanning verdicts for cross-regulator conflicts...",
+    "[16:58:14] Conflict Detector: No conflicts detected.",
+    "[16:58:14] Report Synthesizer: Synthesizing final report..."
+  ]
+}

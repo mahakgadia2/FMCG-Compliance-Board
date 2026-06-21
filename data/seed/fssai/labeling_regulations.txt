@@ -1,0 +1,19 @@
+FSSAI Labeling Regulations — Food Safety and Standards (Packaging and Labelling) Regulations, 2011
+
+Section 2.1 — General Labeling Requirements
+Every package of food shall carry a label containing the name of the food, list of ingredients in descending order of composition, nutritional information per 100g/100ml, net quantity, the FSSAI license number, name and complete address of the manufacturer, and the country of origin for imported products.
+
+Section 2.2 — Date Marking
+All packaged food must declare the date of manufacture/packing and either a "best before" or "use by" date as applicable. Products with a shelf life of less than 3 months must declare "use by".
+
+Section 2.3 — Allergen Declaration
+Common allergens (milk, peanuts, tree nuts, soy, wheat, eggs, fish, shellfish) must be declared in bold within or immediately after the ingredient list, regardless of quantity present.
+
+Section 2.4 — Net Weight Declaration
+Net weight must be declared in metric units (grams, kilograms, millilitres, litres) in a font no smaller than the smallest font used elsewhere on the principal display panel.
+
+Section 2.5 — Vegetarian/Non-Vegetarian Symbol
+All packaged food must carry the green dot (vegetarian) or brown dot (non-vegetarian) symbol on the principal display panel, regardless of other claims made.
+
+Section 2.6 — Imported Products
+Imported food products must additionally declare the name and address of the importer, and the country of origin must be at least as prominent as the brand name on the package.

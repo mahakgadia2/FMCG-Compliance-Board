@@ -1,0 +1,17 @@
+AYUSH Permissible Ingredients Schedule
+
+Section 2.1 — Schedule H: Dosage Caps for Common Herbal Ingredients (per serving, adults)
+Ashwagandha root extract: 600mg
+Tulsi leaf extract: 500mg
+Turmeric (curcumin standardized): 500mg
+Brahmi extract: 300mg
+Shatavari extract: 450mg
+
+Section 2.2 — Reduced Caps for Children's Products
+When a product's stated target demographic includes "children", the above caps are reduced by 60% and a healthcare-consultation caution statement is mandatory on the package.
+
+Section 2.3 — Combination Products
+When two or more herbal ingredients are combined in a single product, the cumulative dosage must not exceed 80% of the sum of individual caps, to account for potential interaction effects.
+
+Section 2.4 — Elderly Demographic
+Products targeting the elderly demographic do not require reduced caps but must include an interaction warning if the ingredient list includes Ashwagandha (potential interaction with thyroid and blood pressure medication) or Brahmi (potential interaction with sedatives).

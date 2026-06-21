@@ -1,0 +1,125 @@
+{
+  "report_id": "80145ffd-2256-4d57-b90f-225dd76bd6dd",
+  "product_name": "Tulsi Turmeric Wellness Shot",
+  "overall_status": "NON_COMPLIANT",
+  "applicable_regulators": [
+    "fssai",
+    "ayush"
+  ],
+  "verdicts": [
+    {
+      "regulator": "ayush",
+      "status": "NON_COMPLIANT",
+      "issues": [
+        {
+          "attribute": "labeling",
+          "description": "The product makes a traditional-use claim ('traditionally used to support the body's natural defenses') but does not specify that it carries the mandatory disclaimer: 'These statements have not been evaluated by AYUSH for treatment of any disease. This product is not intended to diagnose, treat, cure, or prevent any disease.'",
+          "severity": "HIGH",
+          "regulation_reference": "Claim Restrictions \u2014 chunk_0, Section 3.4"
+        }
+      ],
+      "citations": [
+        "9cea9452-f4b3-4c45-8ade-3de3a93bd393",
+        "e8eb42cc-4be4-4b02-a1e7-efbf71b694bc",
+        "a57b0ca0-0ddd-4b31-b207-3bf672867f59",
+        "1ce3da69-5487-4322-bdb0-977235c4841d",
+        "ccc2c863-295c-4e7a-9b83-3dd940007721"
+      ],
+      "reasoning": "The product falls within AYUSH's scope due to herbal ingredients and traditional-medicine-style claims. All herbal ingredients (Tulsi and Turmeric) are on the permissible list and their dosages comply with individual and combination caps for adults. The claims used are consistent with general wellness language. However, the product makes a traditional-use claim and the provided specifications do not indicate the presence of the mandatory disclaimer.",
+      "confidence": 0.95,
+      "agent_name": "AYUSH Expert Agent"
+    },
+    {
+      "regulator": "fssai",
+      "status": "NON_COMPLIANT",
+      "issues": [
+        {
+          "attribute": "claim",
+          "description": "The claim 'traditionally used to support the body's natural defenses' is an unqualified health claim, analogous to 'boosts immunity', which is not permitted without an approved substantiation statement filed with FSSAI.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Health and Nutrition Claims, Section 3.1"
+        },
+        {
+          "attribute": "claim",
+          "description": "The claim 'supports relaxation' is a health claim that must be based on generally accepted scientific evidence. The product specification does not indicate the presence of an approved substantiation statement.",
+          "severity": "MEDIUM",
+          "regulation_reference": "FSSAI Health and Nutrition Claims, Section 3.1"
+        },
+        {
+          "attribute": "ingredient",
+          "description": "The botanical ingredients (tulsi, turmeric extracts) in a 'Wellness Shot' with 'support' claims suggest a potential 'medicinal' function beyond pure flavoring. If classified as such, it would require a joint ingredient-safety review under AYUSH's purview, which FSSAI must ensure compliance with.",
+          "severity": "MEDIUM",
+          "regulation_reference": "FSSAI Permitted Food Additives, Section 4.4"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product specification does not include the mandatory nutritional information per 100g/100ml.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Labeling Regulations, Section 2.1"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product specification does not include the mandatory FSSAI license number.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Labeling Regulations, Section 2.1"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product specification does not include the mandatory name and complete address of the manufacturer.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Labeling Regulations, Section 2.1"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product specification does not include the mandatory date of manufacture/packing and either a 'best before' or 'use by' date.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Labeling Regulations, Section 2.2"
+        },
+        {
+          "attribute": "labeling",
+          "description": "The product specification does not indicate the presence of the mandatory green dot (vegetarian symbol) on the principal display panel.",
+          "severity": "HIGH",
+          "regulation_reference": "FSSAI Labeling Regulations, Section 2.5"
+        }
+      ],
+      "citations": [
+        "27b24505-02df-43dd-b5a3-c1fdd20bf03d",
+        "39692b37-80e0-42e0-913f-11446fc94ffd",
+        "8e08aeac-f1ba-4ba5-a978-28ce5e31625e",
+        "44a29f68-b014-40d8-9822-24b801c253b9",
+        "e2a7377b-ebfe-4eb0-b908-0385564a7bf2"
+      ],
+      "reasoning": "The product is non-compliant due to unqualified health claims, specifically concerning 'natural defenses' and 'relaxation', which require FSSAI-approved substantiation statements. Additionally, several mandatory labeling requirements, including nutritional information, FSSAI license number, manufacturer details, date marking, and the vegetarian symbol, are missing from the product specifications. The nature of the herbal ingredients and claims also suggests a potential need for joint review with AYUSH.",
+      "confidence": 1.0,
+      "agent_name": "FSSAI Expert Agent"
+    }
+  ],
+  "conflicts": [],
+  "action_items": [
+    "[AYUSH / HIGH] The product makes a traditional-use claim ('traditionally used to support the body's natural defenses') but does not specify that it carries the mandatory disclaimer: 'These statements have not been evaluated by AYUSH for treatment of any disease. This product is not intended to diagnose, treat, cure, or prevent any disease.'",
+    "[FSSAI / HIGH] The claim 'traditionally used to support the body's natural defenses' is an unqualified health claim, analogous to 'boosts immunity', which is not permitted without an approved substantiation statement filed with FSSAI.",
+    "[FSSAI / MEDIUM] The claim 'supports relaxation' is a health claim that must be based on generally accepted scientific evidence. The product specification does not indicate the presence of an approved substantiation statement.",
+    "[FSSAI / MEDIUM] The botanical ingredients (tulsi, turmeric extracts) in a 'Wellness Shot' with 'support' claims suggest a potential 'medicinal' function beyond pure flavoring. If classified as such, it would require a joint ingredient-safety review under AYUSH's purview, which FSSAI must ensure compliance with.",
+    "[FSSAI / HIGH] The product specification does not include the mandatory nutritional information per 100g/100ml.",
+    "[FSSAI / HIGH] The product specification does not include the mandatory FSSAI license number.",
+    "[FSSAI / HIGH] The product specification does not include the mandatory name and complete address of the manufacturer.",
+    "[FSSAI / HIGH] The product specification does not include the mandatory date of manufacture/packing and either a 'best before' or 'use by' date.",
+    "[FSSAI / HIGH] The product specification does not indicate the presence of the mandatory green dot (vegetarian symbol) on the principal display panel."
+  ],
+  "summary": "Tulsi Turmeric Wellness Shot was reviewed against 2 regulator(s) and received an overall status of NON_COMPLIANT, with 9 issue(s) and 0 cross-regulator conflict(s) identified. (Generated via rule-based fallback; Gemini was unavailable.)",
+  "generated_at": "2026-06-21T16:50:53.793282",
+  "pipeline_log": [
+    "[16:49:55] Orchestrator: Classifying applicable regulators...",
+    "[16:50:00] Orchestrator: Gemini classification: ['fssai', 'ayush']",
+    "[16:50:00] Orchestrator: Final applicable regulators: ['fssai', 'ayush']",
+    "[16:50:00] FSSAI Expert Agent: Starting review for FSSAI...",
+    "[16:50:00] AYUSH Expert Agent: Starting review for AYUSH...",
+    "[16:50:00] FSSAI Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[16:50:00] AYUSH Expert Agent: Retrieved 5 regulation chunk(s) from ChromaDB.",
+    "[16:50:06] AYUSH Expert Agent: Verdict: NON_COMPLIANT (confidence=0.95)",
+    "[16:50:20] FSSAI Expert Agent: Verdict: NON_COMPLIANT (confidence=1.00)",
+    "[16:50:20] Conflict Detector: Scanning verdicts for cross-regulator conflicts...",
+    "[16:50:52] Conflict Detector: No conflicts detected.",
+    "[16:50:52] Report Synthesizer: Synthesizing final report..."
+  ]
+}

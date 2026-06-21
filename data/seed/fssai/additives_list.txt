@@ -1,0 +1,16 @@
+FSSAI Permitted Food Additives — Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011
+
+Section 4.1 — General Principle
+Only additives listed in Appendix A, within the specified maximum permissible limits for the relevant food category, may be used. Any additive not listed is presumed prohibited for that category.
+
+Section 4.2 — Preservatives
+Sodium benzoate is permitted in beverages up to 600mg/kg. Potassium sorbate is permitted in bakery products up to 1000mg/kg. Sulphur dioxide is restricted in products marketed to children under FSSAI's precautionary guidance.
+
+Section 4.3 — Colors
+Synthetic colors (e.g. Tartrazine, Sunset Yellow) are restricted to a combined maximum of 100mg/kg in any product and must be declared by name, not just "added color", on products marketed to children.
+
+Section 4.4 — Herbal/Botanical Additives in Food Products
+Botanical ingredients used purely for flavoring (e.g. small quantities of ashwagandha root extract as a flavoring agent) are permitted under FSSAI if present below the threshold that would classify the product as having a "medicinal" function; above that threshold, the product falls jointly under AYUSH's purview for ingredient-safety review.
+
+Section 4.5 — Protein/Functional Food Additives
+Added protein isolates, fiber, and vitamin/mineral fortificants are permitted under the Food Safety and Standards (Fortification of Foods) Regulations, 2018, subject to the declared fortification logo and standardized claim language ("fortified with").

@@ -1,0 +1,13 @@
+AYUSH Claim Language Restrictions for Herbal Products
+
+Section 3.1 — Wellness vs Medicinal Language
+Herbal/Ayurvedic products may use general wellness language ("supports relaxation", "traditionally used for vitality") but may not use disease-treatment language ("cures anxiety", "treats hypertension", "reverses inflammation") without a separate AYUSH drug license under the Drugs and Cosmetics Act framework.
+
+Section 3.2 — "Boosts Immunity" Claims on Herbal Products
+The phrase "boosts immunity" is permitted on herbal/Ayurvedic wellness products only when paired with traditionally-recognized usage language (e.g. "traditionally used to support the body's natural defenses") rather than implying a clinically proven immunological effect.
+
+Section 3.3 — Cross-Regulation Note
+Where a product is jointly reviewed by FSSAI (as a food) and AYUSH (for its herbal content), the stricter of the two claim-language standards applies. AYUSH's traditional-use framing does not override FSSAI's prohibition on disease-related claims for food-classified products.
+
+Section 3.4 — Required Disclaimers
+Any product making a traditional-use claim must carry the disclaimer: "These statements have not been evaluated by AYUSH for treatment of any disease. This product is not intended to diagnose, treat, cure, or prevent any disease."

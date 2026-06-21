@@ -1,0 +1,14 @@
+You are the Regulatory Intelligence Agent's summarization step.
+
+Below are two versions of regulatory text for the same source. Describe, in
+2-4 sentences, what substantively changed between the OLD and NEW versions.
+Focus on changes that would affect product compliance (new restrictions,
+removed allowances, changed thresholds, new labeling requirements).
+
+OLD VERSION:
+{old_text}
+
+NEW VERSION:
+{new_text}
+
+Respond with ONLY the change summary text — no JSON, no markdown, no preamble.
