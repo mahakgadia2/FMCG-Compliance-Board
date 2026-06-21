@@ -75,7 +75,7 @@ class RegulatoryIntelAgent:
     def _fetch_page(self, url: str) -> str:
         """Fetch and clean HTML -> plain text. Returns empty string on failure."""
         try:
-            resp = requests.get(url, timeout=15, headers={"User-Agent": "RegulAI/1.0"})
+            resp = requests.get(url, timeout=15, headers={"User-Agent": "Manthan/1.0"})
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
             for tag in soup(["script", "style", "nav", "footer"]):

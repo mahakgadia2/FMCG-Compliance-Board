@@ -1,4 +1,4 @@
-"""app.py — Streamlit demo UI for RegulAI.
+"""app.py — Streamlit demo UI for Manthan.
 
 Run with:
     streamlit run app.py
@@ -17,7 +17,7 @@ from core.pipeline import AnalysisPipeline
 from agents.regulatory_intel_agent import RegulatoryIntelAgent
 from rag.retriever import Retriever
 
-st.set_page_config(page_title="RegulAI — Regulatory Review Board", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="Manthan — Regulatory Review Board", page_icon="🛡️", layout="wide")
 
 STATUS_COLORS = {
     "COMPLIANT": "🟢",
@@ -83,10 +83,10 @@ def render_report(report):
 
 
 def main():
-    st.title("🛡️ RegulAI — Multi-Agent Regulatory Review Board")
+    st.title("🛡️ Manthan — Multi-Agent Regulatory Review Board")
     st.caption(
         "FMCG brands in India must comply with multiple regulatory bodies at once. "
-        "RegulAI automates the review using a specialist agent per regulator."
+        "Manthan automates the review using a specialist agent per regulator."
     )
 
     # --- Sidebar: Regulatory Intelligence Agent controls ---

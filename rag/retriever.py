@@ -12,7 +12,7 @@ _client = chromadb.PersistentClient(path=str(CHROMA_DIR))
 
 
 def _collection_name(regulator: str) -> str:
-    return f"regulai_{regulator}"
+    return f"manthan_{regulator}"
 
 
 class Retriever:

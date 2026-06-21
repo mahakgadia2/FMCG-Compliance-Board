@@ -1,7 +1,7 @@
-# RegulAI — Multi-Agent Regulatory Review Board
+# MANTHAN — Multi-Agent Regulatory Review Board
 
 FMCG brands in India must comply with multiple regulatory bodies simultaneously.
-RegulAI automates this review using a multi-agent system: one specialist agent
+Manthan automates this review using a multi-agent system: one specialist agent
 per regulator, an orchestrator that routes work, a conflict detector that
 catches contradictions between regulators, and a synthesizer that produces a
 final compliance report — just like a real review board.
@@ -54,6 +54,7 @@ python scripts/seed_db.py
 ```
 
 Expected output:
+
 ```
 [FSSAI] Ingesting labeling_regulations.txt ... N chunks added
 [FSSAI] Ingesting health_claims.txt ... N chunks added
