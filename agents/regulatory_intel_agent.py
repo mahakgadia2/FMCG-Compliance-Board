@@ -11,7 +11,7 @@ from typing import Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup
 
-from regulai.agents.llm_client import GeminiClient, GeminiUnavailable
+from agents.llm_client import GeminiClient, GeminiUnavailable
 from rag.retriever import Retriever
 from rag.ingestion import Ingestion
 from rag.embedder import Embedder
